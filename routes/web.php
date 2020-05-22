@@ -18,6 +18,8 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/battle', 'HomeController@battle')->name('battle');
+Route::get('/api/battle', 'HomeController@json');
 
 Route::group(['prefix' => 'admin'], function(){
     Route::get('/', 'Admin\HomeController@index')->name('admin.home');

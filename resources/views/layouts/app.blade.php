@@ -18,6 +18,12 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+
+    <!-- ドラクエ -->
+    <link rel="stylesheet" href="http://webcyou.com/file/css/demo-style.css" type="text/css" media="screen" charset="utf-8" />
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}" type="text/css" />
+    <script type="text/javascript" src="js/battle.js"></script>
+
 </head>
 <body>
     <div id="app">
