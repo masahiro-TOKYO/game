@@ -28,6 +28,7 @@ class HomeController extends Controller
 
     public function battle()
     {
+        \Slack::send('slackslackslack!!!!');
         return view('battle');
     }
 
@@ -49,7 +50,7 @@ class HomeController extends Controller
             "monster" => [
                 'id' => 1,
                 'name' => 'モンスター名',
-                'max_hp' => 1,
+                'max_hp' => 100,
                 'skill' => 'ギラ,ベギラマ,ホイミ,ベホイミ,ラリホー,マホトーン,レミーラ,リレミト,ルーラ,トヘロス',
                 'atk' => 1,
                 'def' => 1,
